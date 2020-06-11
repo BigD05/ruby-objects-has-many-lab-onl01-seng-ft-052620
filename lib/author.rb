@@ -9,7 +9,7 @@ class Author
   end 
 
    def posts 
-    @posts << Posts  
+    @posts <<  posts.title 
    end 
   
 end 
