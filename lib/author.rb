@@ -16,6 +16,8 @@ class Author
     name.author == self 
   end 
 end 
+
+def add_post 
     
   
 end 
