@@ -15,6 +15,7 @@ class Author
   Post.all.select do |name| 
     posts.name == self 
   end 
+end 
     
   
 end 
