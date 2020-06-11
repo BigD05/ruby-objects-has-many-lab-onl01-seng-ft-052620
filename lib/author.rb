@@ -8,7 +8,7 @@ class Author
     @posts = []
   end 
 def posts 
-  @posts << self 
+  @posts << author.name
   
 end 
    def posts
