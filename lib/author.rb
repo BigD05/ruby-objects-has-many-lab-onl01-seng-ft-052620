@@ -12,7 +12,7 @@ class Author
     @posts <<  posts.name  
    end 
    def posts 
-  Post.all.select do |name| 
+  Post.all.select do || 
     posts.name == self 
   end 
 end 
