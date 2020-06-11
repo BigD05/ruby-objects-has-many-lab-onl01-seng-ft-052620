@@ -20,6 +20,6 @@ end
 def add_post(posts) 
   @posts << posts 
   posts.author = self 
-    
+  end 
   
 end 
