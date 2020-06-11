@@ -8,6 +8,8 @@ class Author
     @posts = []
   end 
 
-   
+   def posts 
+    @posts << Posts  
+   end 
   
 end 
