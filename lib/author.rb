@@ -11,7 +11,8 @@ class Author
    def posts 
     @posts <<  posts.name  
    end 
-   def posts 
+   def
+   posts 
   Post.all.select do |name| 
     posts.name == self 
   end 
