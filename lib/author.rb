@@ -26,5 +26,8 @@ def add_post(posts)
     posts = Post.new(title) 
     add_post(posts)
     end 
+    def self.post_count 
+      @@count
+    end 
   
 end 
