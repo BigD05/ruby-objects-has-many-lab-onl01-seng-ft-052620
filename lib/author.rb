@@ -18,7 +18,7 @@ class Author
 end 
 
 def add_post 
-  @post << self
+  @posts << self
     
   
 end 
