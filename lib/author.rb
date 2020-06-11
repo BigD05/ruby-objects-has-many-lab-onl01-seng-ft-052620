@@ -9,7 +9,12 @@ class Author
   end 
 
    def posts 
-    @posts <<  posts.title 
+    @posts <<  posts.name  
    end 
+   def posts 
+  Posts.all.select do |name| 
+    posts.name == self 
+  end 
+    
   
 end 
